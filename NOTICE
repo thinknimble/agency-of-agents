@@ -1,0 +1,34 @@
+Agency of Agents
+Copyright 2025 ThinkNimble (https://thinknimble.com)
+
+This product includes software developed by ThinkNimble.
+
+================================================================================
+DUAL LICENSING NOTICE
+================================================================================
+
+This repository uses dual licensing to protect different types of content:
+
+1. SOFTWARE CODE (Apache License 2.0):
+   - Python scripts (*.py)
+   - Configuration files
+   - Any executable code
+   
+2. AGENT DEFINITIONS & DOCUMENTATION (CC BY 4.0):
+   - All files in .claude/agents/
+   - All files in projects/
+   - Documentation and knowledge content
+   - Meeting transcripts and analysis templates
+
+When using this work, you MUST:
+- Include this NOTICE file in any distribution
+- Provide attribution to ThinkNimble when using agent definitions
+- Link back to https://github.com/thinknimble/agency-of-agents
+
+================================================================================
+
+ThinkNimble is a software development agency that partners with startups and 
+enterprises to build custom software solutions. These agents represent our 
+accumulated knowledge from hundreds of client engagements.
+
+For more information: https://thinknimble.com

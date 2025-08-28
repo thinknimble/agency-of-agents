@@ -1,0 +1,51 @@
+Creative Commons Attribution 4.0 International License (CC BY 4.0)
+
+This license applies to all agent definitions, documentation, and knowledge content 
+in this repository, specifically:
+- All files in .claude/agents/
+- All files in projects/
+- All documentation and meeting transcripts
+
+=======================================================================
+
+Creative Commons Corporation ("Creative Commons") is not a law firm and
+does not provide legal services or legal advice. Distribution of
+Creative Commons public licenses does not create a lawyer-client or
+other relationship. Creative Commons makes its licenses and related
+information available on an "as-is" basis. Creative Commons gives no
+warranties regarding its licenses, any material licensed under their
+terms and conditions, or any related information. Creative Commons
+disclaims all liability for damages resulting from their use to the
+fullest extent possible.
+
+BY EXERCISING ANY RIGHTS TO THE WORK PROVIDED HERE, YOU ACCEPT AND
+AGREE TO BE BOUND BY THE TERMS OF THIS LICENSE. TO THE EXTENT THIS
+LICENSE MAY BE CONSIDERED TO BE A CONTRACT, THE LICENSOR GRANTS YOU
+THE RIGHTS CONTAINED HERE IN CONSIDERATION OF YOUR ACCEPTANCE OF SUCH
+TERMS AND CONDITIONS.
+
+Full license text: https://creativecommons.org/licenses/by/4.0/legalcode
+
+=======================================================================
+
+HUMAN-READABLE SUMMARY
+=======================================================================
+
+You are free to:
+
+- Share — copy and redistribute the material in any medium or format
+- Adapt — remix, transform, and build upon the material
+  for any purpose, even commercially.
+
+Under the following terms:
+
+- Attribution — You must give appropriate credit to ThinkNimble, provide 
+  a link to the license, and indicate if changes were made. You may do 
+  so in any reasonable manner, but not in any way that suggests 
+  ThinkNimble endorses you or your use.
+
+Suggested attribution:
+
+"Agency of Agents" by ThinkNimble (https://thinknimble.com)
+Source: https://github.com/thinknimble/agency-of-agents
+License: CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)

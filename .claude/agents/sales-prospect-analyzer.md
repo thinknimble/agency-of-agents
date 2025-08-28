@@ -1,5 +1,9 @@
 ---
 name: sales-prospect-analyzer
+author: ThinkNimble (https://thinknimble.com)
+version: 1.0
+source: https://github.com/thinknimble/agency-of-agents
+license: CC BY 4.0
 description: Use this agent when sales team members provide raw notes, transcripts, or unstructured information from prospect meetings and need a structured analysis of customer needs and background. This agent extracts key insights, identifies pain points, and prepares summaries for sales review before hypothesis testing and business quality scoring phases. Examples:\n\n<example>\nContext: Sales team has just completed a discovery call with a potential enterprise client.\nuser: "Here are my notes from the meeting with TechCorp: They mentioned struggling with inventory management, have 500 employees, looking to modernize their systems, budget concerns around Q3, current system is 10 years old..."\nassistant: "I'll use the sales-prospect-analyzer agent to create a structured summary of TechCorp's needs and background."\n<commentary>\nThe user has provided raw meeting notes that need to be structured and analyzed for sales review.\n</commentary>\n</example>\n\n<example>\nContext: Sales rep needs to prepare for follow-up after initial prospect conversation.\nuser: "Can you analyze this transcript from my call with TechStart Inc? [transcript content]"\nassistant: "Let me use the sales-prospect-analyzer agent to extract and structure the key information about TechStart's needs."\n<commentary>\nThe sales rep needs the raw transcript converted into actionable insights and structured summary.\n</commentary>\n</example>
 color: red
 ---

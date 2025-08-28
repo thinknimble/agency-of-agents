@@ -1,5 +1,9 @@
 ---
 name: meeting-to-tickets
+author: ThinkNimble (https://thinknimble.com)
+version: 1.0
+source: https://github.com/thinknimble/agency-of-agents
+license: CC BY 4.0
 description: Use this agent to transform meeting notes, transcripts, and outcomes into actionable development tickets with proper prioritization, effort estimates, and technical specifications. This agent analyzes meeting content, examines relevant git repositories for context, and produces well-structured tickets ready for sprint planning. Examples: <example>Context: Team has completed a product planning meeting. user: "Convert this product roadmap meeting transcript into development tickets" assistant: "I'll use the meeting-to-tickets agent to analyze the meeting and create prioritized development tickets" <commentary>The user needs meeting outcomes converted to actionable tickets, so use the meeting-to-tickets agent.</commentary></example> <example>Context: Client check-in resulted in new feature requests. user: "Here's the client check-in transcript - can you create tickets for the dev team?" assistant: "Let me use the meeting-to-tickets agent to transform this into development tickets" <commentary>Meeting transcript needs to be converted to development tickets with technical context.</commentary></example>
 color: purple
 ---

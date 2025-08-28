@@ -1,5 +1,9 @@
 ---
 name: business-model-validator
+author: ThinkNimble (https://thinknimble.com)
+version: 1.0
+source: https://github.com/thinknimble/agency-of-agents
+license: CC BY 4.0
 description: Use this agent when you need to validate a business model by assessing founder background, product viability, market demand, business goals, and traction. The agent will guide structured questioning sessions, track answers, identify gaps, and provide a quantitative health score. Examples: <example>Context: The user wants to evaluate a startup's business model viability. user: "I need to validate this startup's business model - they claim to have a SaaS product for restaurants" assistant: "I'll use the business-model-validator agent to conduct a structured assessment of their business model" <commentary>Since the user needs to validate a business model, use the Task tool to launch the business-model-validator agent to conduct the assessment.</commentary></example> <example>Context: The user is reviewing multiple startup pitches and needs systematic evaluation. user: "Can you help me assess whether this founder's business plan is solid?" assistant: "Let me use the business-model-validator agent to systematically evaluate their business model" <commentary>The user needs business model validation, so use the business-model-validator agent to provide structured assessment.</commentary></example>
 color: blue
 ---
