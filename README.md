@@ -37,6 +37,30 @@ agency-of-agents/
 └── README.md        # This file
 ```
 
+## Security: Project Data Protection
+
+⚠️ **Important**: To prevent accidental exposure of client data, all new projects in the `projects/` directory are automatically ignored by git. This is a safety measure to ensure sensitive client information is never accidentally committed to public repositories.
+
+### Adding Projects to Git
+
+If you want to version control a specific project (after ensuring it contains no sensitive data):
+
+```bash
+# Force add a specific project
+git add -f projects/your-project-name/
+
+# Or add specific files
+git add -f projects/your-project-name/specific-file.md
+```
+
+### Example Projects
+
+The repository includes two example projects that demonstrate the workflow:
+- `projects/inventory-management-saas/` - Example SaaS inventory platform engagement
+- `projects/customer-support-ai/` - Example AI customer support tool engagement
+
+These examples are explicitly included in version control and contain no real client data.
+
 ## Tools
 
 ### Google Doc Dumper Script

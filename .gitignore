@@ -70,3 +70,10 @@ mcp-logs/
 
 # Python type checking
 .mypy_cache/
+
+# Project files - ignored by default for safety
+# To add a project to git, use: git add -f projects/project-name/
+projects/*
+# Keep the example projects
+!projects/inventory-management-saas/
+!projects/customer-support-ai/
