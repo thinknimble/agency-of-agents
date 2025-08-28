@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "google-docs": {
+      "command": "node",
+      "args": [
+        "${HOME}/.config/claude-code/mcp-servers/google-docs-mcp/dist/server.js"
+      ]
+    }
+  }
+}

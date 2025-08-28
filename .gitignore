@@ -1,0 +1,72 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+*.egg-info/
+dist/
+build/
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment files
+.env
+.env.local
+.env.*.local
+*.env
+
+# Google Docs credentials - IMPORTANT: Never commit these
+mcps/google-docs/credentials.json
+mcps/google-docs/token.json
+**/credentials.json
+**/token.json
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Test coverage
+coverage/
+.coverage
+htmlcov/
+*.cover
+.pytest_cache/
+
+# Logs
+logs/
+*.log
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+.cache/
+
+# MCP related
+mcp-logs/
+.mcp/
+
+# Claude specific
+.claude/.env
+.claude/logs/
+.claude/settings.local.json
+
+# Python type checking
+.mypy_cache/
