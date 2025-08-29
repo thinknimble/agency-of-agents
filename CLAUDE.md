@@ -13,6 +13,8 @@ agency-of-agents/
 ├── .claude/                  # Claude-specific configurations
 │   └── agents/              # Sub-agent definitions
 │       ├── business-model-validator.md
+│       ├── github-issue-creator.md
+│       ├── github-milestone-analyzer.md
 │       ├── google-docs-fetcher.md
 │       ├── hypothesis-identifier.md
 │       ├── meeting-to-tickets.md
@@ -107,6 +109,39 @@ Task(description="Convert meeting to tickets", prompt="Convert this client check
 ```
 
 **Output**: Creates a markdown file with prioritized development tickets including acceptance criteria, effort estimates, and technical notes.
+
+### 6. github-issue-creator
+**Purpose**: Transform PRDs into GitHub milestones and issues with strategic ROI-driven focus.
+
+**When to use**:
+- Converting Product Requirements Documents (PRDs) into actionable work items
+- Creating strategic milestones that solve risky business hypotheses  
+- Breaking down complex features into day-sized development issues
+- Connecting features to business outcomes and user patterns
+
+**Example usage**:
+```
+Task(description="Convert PRD to GitHub issues", prompt="Convert this PRD into GitHub milestones and issues for our development team. Focus on the user onboarding flow. Repository: github.com/example/project", subagent_type="github-issue-creator")
+```
+
+**Output**: Creates structured document with strategic milestones (1-2 weeks scope) and day-sized issues with business context, acceptance criteria, and potential roadblocks.
+
+### 7. github-milestone-analyzer
+**Purpose**: Analyze GitHub milestones and issues for patterns, estimation accuracy, and outcome alignment to improve future issue creation.
+
+**When to use**:
+- Reviewing sprint performance and issue quality
+- Identifying patterns in time overruns or scope changes
+- Analyzing estimation accuracy and outcome mismatches
+- Improving issue creation guidelines based on delivery data
+- Detecting excessive clarification needs in issues
+
+**Example usage**:
+```
+Task(description="Analyze GitHub issues", prompt="Analyze our GitHub repository for the last 30 days focusing on issue estimation accuracy and scope changes. Repository: github.com/example/project", subagent_type="github-milestone-analyzer")
+```
+
+**Output**: Comprehensive analysis report with estimation accuracy metrics, outcome alignment assessment, clarification pattern analysis, and actionable recommendations for improving issue creation guidelines.
 
 ## Available Tools
 
